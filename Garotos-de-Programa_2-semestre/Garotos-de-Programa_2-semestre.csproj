@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4A294D7-5765-42D9-A3D7-EAD6DA14CF7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Garotos_de_Programa_2_semestre</RootNamespace>
+    <AssemblyName>Garotos-de-Programa_2-semestre</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ele_AssociacaodeResistores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_AssociacaodeResistores.Designer.cs">
+      <DependentUpon>Ele_AssociacaodeResistores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Binario_Decimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Binario_Decimal.Designer.cs">
+      <DependentUpon>Ele_Binario_Decimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_CargaEletrica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_CargaEletrica.Designer.cs">
+      <DependentUpon>Ele_CargaEletrica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Energia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Energia.Designer.cs">
+      <DependentUpon>Ele_Energia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_ForcaEletromotriz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_ForcaEletromotriz.Designer.cs">
+      <DependentUpon>Ele_ForcaEletromotriz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Hexadecimal_Decimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Hexadecimal_Decimal.Designer.cs">
+      <DependentUpon>Ele_Hexadecimal_Decimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_IntensidadeCorrenteEletrica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_IntensidadeCorrenteEletrica.Designer.cs">
+      <DependentUpon>Ele_IntensidadeCorrenteEletrica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Octal_Decimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Octal_Decimal.Designer.cs">
+      <DependentUpon>Ele_Octal_Decimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Potencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Potencia.Designer.cs">
+      <DependentUpon>Ele_Potencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_PrimeiraLeiOhm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_PrimeiraLeiOhm.Designer.cs">
+      <DependentUpon>Ele_PrimeiraLeiOhm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Resistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Resistencia.Designer.cs">
+      <DependentUpon>Ele_Resistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_SegundaLeiOhm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_SegundaLeiOhm.Designer.cs">
+      <DependentUpon>Ele_SegundaLeiOhm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_Tensao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_Tensao.Designer.cs">
+      <DependentUpon>Ele_Tensao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ele_YDelta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ele_YDelta.Designer.cs">
+      <DependentUpon>Ele_YDelta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_CalorSensivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_CalorSensivel.Designer.cs">
+      <DependentUpon>Fis_CalorSensivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_ErroProbabilistoco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_ErroProbabilistoco.Designer.cs">
+      <DependentUpon>Fis_ErroProbabilistoco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_ForcaGravitacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_ForcaGravitacional.Designer.cs">
+      <DependentUpon>Fis_ForcaGravitacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Forcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Forcas.Designer.cs">
+      <DependentUpon>Fis_Forcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_LancamentoHorizontal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_LancamentoHorizontal.Designer.cs">
+      <DependentUpon>Fis_LancamentoHorizontal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_LancamentoObliquo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_LancamentoObliquo.Designer.cs">
+      <DependentUpon>Fis_LancamentoObliquo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_LancamentoVertical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_LancamentoVertical.Designer.cs">
+      <DependentUpon>Fis_LancamentoVertical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Movimento_Uniforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Movimento_Uniforme.Designer.cs">
+      <DependentUpon>Fis_Movimento_Uniforme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Movimento_Uniforme_Variado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Movimento_Uniforme_Variado.Designer.cs">
+      <DependentUpon>Fis_Movimento_Uniforme_Variado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_QuedaLivre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_QuedaLivre.Designer.cs">
+      <DependentUpon>Fis_QuedaLivre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Toriccelli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Toriccelli.Designer.cs">
+      <DependentUpon>Fis_Toriccelli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Velocidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Velocidade.Designer.cs">
+      <DependentUpon>Fis_Velocidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Velocidade_Instantanea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Velocidade_Instantanea.Designer.cs">
+      <DependentUpon>Fis_Velocidade_Instantanea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fis_Velocidade_Media.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fis_Velocidade_Media.Designer.cs">
+      <DependentUpon>Fis_Velocidade_Media.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ConversaoValores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ConversaoValores.Designer.cs">
+      <DependentUpon>Form_ConversaoValores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ConversaoValores_Dois.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ConversaoValores_Dois.Designer.cs">
+      <DependentUpon>Form_ConversaoValores_Dois.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ConversaoValores_Tres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ConversaoValores_Tres.Designer.cs">
+      <DependentUpon>Form_ConversaoValores_Tres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Inicial.Designer.cs">
+      <DependentUpon>Form_Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Menu.Designer.cs">
+      <DependentUpon>Form_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Circulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Circulo.Designer.cs">
+      <DependentUpon>Mat_Area_Circulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Losango.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Losango.Designer.cs">
+      <DependentUpon>Mat_Area_Losango.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Paralelogramo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Paralelogramo.Designer.cs">
+      <DependentUpon>Mat_Area_Paralelogramo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Quadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Quadrado.Designer.cs">
+      <DependentUpon>Mat_Area_Quadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Retangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Retangulo.Designer.cs">
+      <DependentUpon>Mat_Area_Retangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Trapezio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Trapezio.Designer.cs">
+      <DependentUpon>Mat_Area_Trapezio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Area_Triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Area_Triangulo.Designer.cs">
+      <DependentUpon>Mat_Area_Triangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Bhaskara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Bhaskara.Designer.cs">
+      <DependentUpon>Mat_Bhaskara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Fracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Fracoes.Designer.cs">
+      <DependentUpon>Mat_Fracoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Funcao_Primeirograu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Funcao_Primeirograu.Designer.cs">
+      <DependentUpon>Mat_Funcao_Primeirograu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Funcao_Segundograu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Funcao_Segundograu.Designer.cs">
+      <DependentUpon>Mat_Funcao_Segundograu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Pitagoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Pitagoras.Designer.cs">
+      <DependentUpon>Mat_Pitagoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Porcentagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Porcentagem.Designer.cs">
+      <DependentUpon>Mat_Porcentagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mat_Produtos_Notaveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mat_Produtos_Notaveis.Designer.cs">
+      <DependentUpon>Mat_Produtos_Notaveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ele_AssociacaodeResistores.resx">
+      <DependentUpon>Ele_AssociacaodeResistores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Binario_Decimal.resx">
+      <DependentUpon>Ele_Binario_Decimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_CargaEletrica.resx">
+      <DependentUpon>Ele_CargaEletrica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Energia.resx">
+      <DependentUpon>Ele_Energia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_ForcaEletromotriz.resx">
+      <DependentUpon>Ele_ForcaEletromotriz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Hexadecimal_Decimal.resx">
+      <DependentUpon>Ele_Hexadecimal_Decimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_IntensidadeCorrenteEletrica.resx">
+      <DependentUpon>Ele_IntensidadeCorrenteEletrica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Octal_Decimal.resx">
+      <DependentUpon>Ele_Octal_Decimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Potencia.resx">
+      <DependentUpon>Ele_Potencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_PrimeiraLeiOhm.resx">
+      <DependentUpon>Ele_PrimeiraLeiOhm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Resistencia.resx">
+      <DependentUpon>Ele_Resistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_SegundaLeiOhm.resx">
+      <DependentUpon>Ele_SegundaLeiOhm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_Tensao.resx">
+      <DependentUpon>Ele_Tensao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ele_YDelta.resx">
+      <DependentUpon>Ele_YDelta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_CalorSensivel.resx">
+      <DependentUpon>Fis_CalorSensivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_ErroProbabilistoco.resx">
+      <DependentUpon>Fis_ErroProbabilistoco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_ForcaGravitacional.resx">
+      <DependentUpon>Fis_ForcaGravitacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Forcas.resx">
+      <DependentUpon>Fis_Forcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_LancamentoHorizontal.resx">
+      <DependentUpon>Fis_LancamentoHorizontal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_LancamentoObliquo.resx">
+      <DependentUpon>Fis_LancamentoObliquo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_LancamentoVertical.resx">
+      <DependentUpon>Fis_LancamentoVertical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Movimento_Uniforme.resx">
+      <DependentUpon>Fis_Movimento_Uniforme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Movimento_Uniforme_Variado.resx">
+      <DependentUpon>Fis_Movimento_Uniforme_Variado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_QuedaLivre.resx">
+      <DependentUpon>Fis_QuedaLivre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Toriccelli.resx">
+      <DependentUpon>Fis_Toriccelli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Velocidade.resx">
+      <DependentUpon>Fis_Velocidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Velocidade_Instantanea.resx">
+      <DependentUpon>Fis_Velocidade_Instantanea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fis_Velocidade_Media.resx">
+      <DependentUpon>Fis_Velocidade_Media.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ConversaoValores.resx">
+      <DependentUpon>Form_ConversaoValores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ConversaoValores_Dois.resx">
+      <DependentUpon>Form_ConversaoValores_Dois.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ConversaoValores_Tres.resx">
+      <DependentUpon>Form_ConversaoValores_Tres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Inicial.pt-BR.resx">
+      <DependentUpon>Form_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Inicial.resx">
+      <DependentUpon>Form_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Menu.resx">
+      <DependentUpon>Form_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Circulo.resx">
+      <DependentUpon>Mat_Area_Circulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Losango.resx">
+      <DependentUpon>Mat_Area_Losango.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Paralelogramo.resx">
+      <DependentUpon>Mat_Area_Paralelogramo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Quadrado.resx">
+      <DependentUpon>Mat_Area_Quadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Retangulo.resx">
+      <DependentUpon>Mat_Area_Retangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Trapezio.resx">
+      <DependentUpon>Mat_Area_Trapezio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Area_Triangulo.resx">
+      <DependentUpon>Mat_Area_Triangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Bhaskara.resx">
+      <DependentUpon>Mat_Bhaskara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Fracoes.resx">
+      <DependentUpon>Mat_Fracoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Funcao_Primeirograu.resx">
+      <DependentUpon>Mat_Funcao_Primeirograu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Funcao_Segundograu.resx">
+      <DependentUpon>Mat_Funcao_Segundograu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Pitagoras.resx">
+      <DependentUpon>Mat_Pitagoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Porcentagem.resx">
+      <DependentUpon>Mat_Porcentagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mat_Produtos_Notaveis.resx">
+      <DependentUpon>Mat_Produtos_Notaveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
